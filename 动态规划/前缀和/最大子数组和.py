@@ -4,7 +4,7 @@ class Solution:
         result = 0
         max_value = -10**4-1
         for i in range(len(nums)):
-            result += nums[i]
+            result += nums  [i]
             max_value = max(max_value,result)
             result = max(0,result)
         return max_value
